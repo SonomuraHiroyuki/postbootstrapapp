@@ -21,7 +21,8 @@ class PostsController < ApplicationController
       flash.now[:alert] = "投稿に失敗しました"
       render :new
     end
-
+  end
+  
   def edit
   end
 
